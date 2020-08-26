@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.center{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+header{
+    height: 90px;
+    line-height: 90px;
+    background-color: #F5F5F5;
+}
+.logo img{
+    float: left;
+    margin-top: 28px;
+    margin-bottom: 27px;
+}
+.logo span{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+    line-height: 90px;
+    color: #3B3B3B;
+    
+}
+.menu{
+    float: right;
+    line-height: 90px;
+    
+}
+.menu a{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.menu a:hover{
+    cursor: pointer;
+}
+.menu button, .segundacoluna button{
+    width: 115px;
+    height: 40px;
+    background-image: linear-gradient(237deg, #6ACBE0 0%, #6859EA 100%);
+    border: 0;
+    border-radius: 23px;
+    color: #FFFFFF;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px #3B3B3B;
+}
+.menu button:hover, .segundacoluna button:hover{
+    cursor: pointer;
+}
+.section1{
+    background-color: #F5F5F5;
+    height: 650px;
+}
+.primeiracoluna{
+    width: 35%;
+
+}
+.primeiracoluna img{
+    max-width: 400px;
+    width: 100%;
+    float: left;
+    margin-top: 55px;
+    margin-bottom: 95px;
+
+}
+.segundacoluna{
+    padding-top: 136px;
+    padding-left: 200px;
+    float: left;
+    width: 65%;
+
+}
+.segundacoluna h2{
+
+    max-width: 550px;
+    width: 100%;
+    font-size: 36px; 
+}
+.segundacoluna p{
+    max-width: 550px;
+    width: 100%;
+    font-size: 16px ;
+    margin-top: 25px;  
+}
+.segundacoluna button{
+    margin-top: 40px;
+}
+
+

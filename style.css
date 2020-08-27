@@ -84,7 +84,7 @@ button:hover{
     width: 65%;
 }
 .segundacoluna h2{
-
+    color: #3B3B3B;
     max-width: 550px;
     width: 100%;
     font-size: 36px; 
@@ -93,7 +93,8 @@ button:hover{
     max-width: 550px;
     width: 100%;
     font-size: 16px ;
-    margin-top: 25px;  
+    margin-top: 25px; 
+    color: #707070; 
 }
 .segundacoluna button{
     margin-top: 40px;
@@ -112,12 +113,14 @@ button:hover{
     max-width: 550px;
     width: 100%;
     font-size: 36px; 
+    color: #3B3B3B;
 }
 .primeiracoluna2 p{
     max-width: 550px;
     width: 100%;
     font-size: 16px ;
-    margin-top: 25px;  
+    margin-top: 25px; 
+    color: #707070; 
 }
 .primeiracoluna2 button{
     margin-top: 40px;
@@ -125,4 +128,8 @@ button:hover{
 .segundacoluna2{
     padding-left: 100px;
     margin: 55px 0;
+}
+.section3{
+    height: 810px;
+    background-color: #F5F5F5;
 }

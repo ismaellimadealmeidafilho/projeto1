@@ -18,25 +18,28 @@ header{
     height: 90px;
     line-height: 90px;
     background-color: #F5F5F5;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .logo img{
-    float: left;
     margin-top: 28px;
     margin-bottom: 27px;
+    float: left;
 }
 .logo span{
-    float: left;
     font-size: 30px;
     font-weight: bold;
     margin-left: 15px;
     line-height: 90px;
     color: #3B3B3B;
-    
+    float: left;
 }
 .menu{
-    float: right;
     line-height: 90px;
-    
+    float: right;    
 }
 .menu a{
     color: #707070;
@@ -63,22 +66,18 @@ button:hover{
 /*Ajustes da primeira Sessão */
 .section1{
     background-color: #F5F5F5;
-    height: 650px;
-    display: flex;
+    padding-top: 55px;
+    padding-bottom: 95px;
 }
 .section1 .center{
     display: flex;
 }
 .primeiracoluna{
     width: 35%;
-
 }
 .primeiracoluna img{
     max-width: 400px;
     width: 100%;
-    margin-top: 55px;
-    margin-bottom: 95px;
-
 }
 .segundacoluna{
     padding-top: 136px;
@@ -103,7 +102,8 @@ button:hover{
 }
 /*Ajustes da Sessão sobre o produto */
 .section2{
-    height: 490px;
+    background-color: #FEFEFE;
+    padding: 0 55px;
 }
 .section2 .center{
     display: flex;
@@ -134,14 +134,14 @@ button:hover{
 }
 /*Ajustes da Sessão sobre os recursos*/
 .section3{
-    height: 810px;
     background-color: #F5F5F5;
+    padding-top: 110px;
+    padding-bottom: 130px;
 }
 .section3top h2{
     text-align: center;
     font-size: 36px; 
     color: #3B3B3B;
-    padding-top: 110px;
 }
 .section3top p{
     font-size: 14px ;
@@ -177,4 +177,43 @@ button:hover{
     text-align: center;
     padding-right: 25px;
     padding-left: 25px;
+}
+/*Sessão sobre o Motivo para comprar*/
+.section4{
+    background-color: #FEFEFE;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.section4 .center{
+    display: flex;
+}
+.primeiracoluna4{
+    width: 50%;
+
+}
+.segundacoluna4{
+    width: 50%;
+}
+.segundacoluna4 h2{
+    font-size: 36px; 
+    color: #3B3B3B;
+    margin-top: 20px;
+}
+.segundacoluna4 p{
+    font-size: 14px ;
+    margin: auto;
+    margin-top: 25px; 
+    color: #707070;
+    line-height: 19px;
+}
+.segundacoluna4 ul{
+
+}
+.segundacoluna4 li{
+    list-style-image: url(imagens/checked.png);
+    color: #707070;
+    list-style-position: inside;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 19px;
 }

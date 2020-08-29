@@ -7,8 +7,10 @@
 }
 .center{
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .clear{
     clear: both;
@@ -20,9 +22,7 @@ header{
     background-color: #F5F5F5;
     position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;
 }
 .logo img{
     margin-top: 28px;
@@ -68,6 +68,7 @@ button:hover{
     background-color: #F5F5F5;
     padding-top: 55px;
     padding-bottom: 95px;
+    width: 100%;
 }
 .section1 .center{
     display: flex;
@@ -102,6 +103,7 @@ button:hover{
 }
 /*Ajustes da Sessão sobre o produto */
 .section2{
+    width: 100%;
     background-color: #FEFEFE;
     padding: 0 55px;
 }
@@ -134,6 +136,7 @@ button:hover{
 }
 /*Ajustes da Sessão sobre os recursos*/
 .section3{
+    width: 100%;
     background-color: #F5F5F5;
     padding-top: 110px;
     padding-bottom: 130px;
@@ -180,6 +183,7 @@ button:hover{
 }
 /*Sessão sobre o Motivo para comprar*/
 .section4{
+    width: 100%;
     background-color: #FEFEFE;
     padding-top: 95px;
     padding-bottom: 95px;
@@ -206,9 +210,6 @@ button:hover{
     color: #707070;
     line-height: 19px;
 }
-.segundacoluna4 ul{
-
-}
 .segundacoluna4 li{
     list-style-image: url(imagens/checked.png);
     color: #707070;
@@ -217,3 +218,58 @@ button:hover{
     margin-top: 10px;
     line-height: 19px;
 }
+/*Sessão com os produtos*/
+.section5{
+    width: 100%;
+    background-image: linear-gradient(236deg, #6ACBE0 0%, #6859EA 100%);
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.section5top h2{
+    text-align: center;
+    font-size: 36px; 
+    color: #FFFFFF;
+}
+.section5top p{
+    font-size: 14px;
+    margin: auto;
+    margin-top: 20px; 
+    color: #FFFFFF;
+    width: 496px;
+    text-align: center;
+}
+.section5bottom{
+    display: flex;
+    margin-top: 60px;
+}
+.produto{
+    width: 33.3%;
+}
+.produto h4{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.produto h3{
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 15px;
+}
+.produto button{
+    border: 2px solid #FFFFFF;
+    background-color:transparent;
+    background-image: none;
+    box-shadow: none;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+    .center{
+        max-width: 900px;
+    }
+}
+

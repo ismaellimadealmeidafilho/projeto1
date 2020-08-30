@@ -63,7 +63,7 @@ button{
 button:hover{
     cursor: pointer;
 }
-/*Ajustes da primeira Sessão */
+/*Ajustes da primeira Seção */
 .section1{
     background-color: #F5F5F5;
     padding-top: 55px;
@@ -101,7 +101,7 @@ button:hover{
 .segundacoluna button{
     margin-top: 40px;
 }
-/*Ajustes da Sessão sobre o produto */
+/*Ajustes da Seção sobre o produto */
 .section2{
     width: 100%;
     background-color: #FEFEFE;
@@ -134,7 +134,7 @@ button:hover{
     padding-left: 100px;
     margin: 55px 0;
 }
-/*Ajustes da Sessão sobre os recursos*/
+/*Ajustes da Seção sobre os recursos*/
 .section3{
     width: 100%;
     background-color: #F5F5F5;
@@ -181,7 +181,7 @@ button:hover{
     padding-right: 25px;
     padding-left: 25px;
 }
-/*Sessão sobre o Motivo para comprar*/
+/*Seção sobre o Motivo para comprar*/
 .section4{
     width: 100%;
     background-color: #FEFEFE;
@@ -218,7 +218,7 @@ button:hover{
     margin-top: 10px;
     line-height: 19px;
 }
-/*Sessão com os produtos*/
+/*Seção com os produtos*/
 .section5{
     width: 100%;
     background-image: linear-gradient(236deg, #6ACBE0 0%, #6859EA 100%);
@@ -266,6 +266,69 @@ button:hover{
     margin: auto;
     margin-top: 20px;
 }
+/* Seção com os testemunhos */
+.section6{
+    padding-top: 110px;
+    padding-bottom: 122px;
+}
+.section6top h2{
+    text-align: center;
+    font-size: 36px; 
+    color: #3B3B3B;
+}
+.section6top p{
+    font-size: 14px ;
+    margin: auto;
+    margin-top: 20px; 
+    color: #707070;
+    width: 496px;
+    text-align: center;
+}
+.section6mid{
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+.section6mid .left{
+    margin-top: 114px;
+    float: left;
+}
+.section6mid .right{
+    margin-top: 114px;
+    float: right;
+}
+.testemunhos{
+    display: flex;
+    margin-left: 65px;
+    margin-right: 35px;
+}
+.testemunha{
+    max-width: 270px;
+    width: 30%;
+    background-color: #6ACBE0;
+    margin-right: 30px;
+}
+.section6bottom{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    background-color: #6ACBE0;
+    
+}
+.bullet1, .bullet2, .bullet3{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    border: 1px solid #C1C1C1;
+    margin-right: 15px;
+    display: inline-block;
+}
+.bullet3{
+    margin-right: 0;
+}
+
 
 @media only screen and (max-width: 1024px){
     .center{

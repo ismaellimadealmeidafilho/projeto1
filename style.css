@@ -245,6 +245,9 @@ button:hover{
 .produto{
     width: 33.3%;
 }
+.produto img{
+    width: 100%;
+}
 .produto h4{
     margin-top: 15px;
     font-size: 18px;
@@ -267,6 +270,7 @@ button:hover{
     margin-top: 20px;
 }
 /* Seção com os testemunhos */
+/* Descrição */
 .section6{
     padding-top: 110px;
     padding-bottom: 122px;
@@ -284,6 +288,7 @@ button:hover{
     width: 496px;
     text-align: center;
 }
+/* Testemunhos */
 .section6mid{
     width: 100%;
     margin-top: 60px;
@@ -298,24 +303,65 @@ button:hover{
     margin-top: 114px;
     float: right;
 }
+/* Testemunhos */
 .testemunhos{
     display: flex;
     margin-left: 65px;
     margin-right: 35px;
 }
-.testemunha{
+.testemunho{
     max-width: 270px;
     width: 30%;
-    background-color: #6ACBE0;
     margin-right: 30px;
 }
-.section6bottom{
+.testemunho .pessoa{
+    display: flex;
+
+} 
+.testemunho .pessoa img{
+    margin-left: 20px;
     display: inline-block;
+    width: 80px;
+}
+.testemunho .pessoa div{
+    margin-top: 25px;
+}
+.testemunho .pessoa p{
+    margin-left: 20px;
+    font-size: 14px;
+    color: #707070;
+}
+.testemunho .pessoa .bold{
+    font-weight: bold;
+    color: #707070;
+}
+.testemunho .texto::after{
+    content: '';
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #EAF4FC;
+    top: -10px;
+    position: absolute;
+    left: 40px
+}   
+.testemunho .texto{
+    position: relative;
+    width: 100%;
+    background-color: #EAF4FC;
+    padding: 20px;
+    margin-top: 20px;
+}
+.testemunho .texto p{
+    font-size: 14px;
+    color: #707070;
+    font-style: italic;
+}
+/* Bullets */
+.section6bottom{
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
-    background-color: #6ACBE0;
-    
+   text-align: center;    
 }
 .bullet1, .bullet2, .bullet3{
     width: 12px;
@@ -327,6 +373,9 @@ button:hover{
 }
 .bullet3{
     margin-right: 0;
+}
+.active{
+    background-image: linear-gradient(180deg, #6ACBE0 0%, #6859EA 100%);
 }
 
 

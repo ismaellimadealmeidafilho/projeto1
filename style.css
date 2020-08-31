@@ -303,6 +303,10 @@ button:hover{
     margin-top: 114px;
     float: right;
 }
+.left:hover,
+.right:hover{
+    cursor: pointer;
+}
 /* Testemunhos */
 .testemunhos{
     display: flex;
@@ -376,6 +380,58 @@ button:hover{
 }
 .active{
     background-image: linear-gradient(180deg, #6ACBE0 0%, #6859EA 100%);
+}
+.bullet1:hover,
+.bullet2:hover,
+.bullet3:hover{
+    cursor: pointer;
+}
+/*Seção FAQ*/
+.section7{
+    background-color: #F5F5F5;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.section7 .center{
+    display: flex;
+}
+/* Perguntas */
+.section7 .perguntas{
+    width: 50%;
+}
+.section7 .perguntas h2{
+    font-size: 36px;
+    text-align: left;
+    color: #3B3B3B;
+    margin-bottom: 50px;
+}
+.pergunta{
+    width: 100%;
+    background: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.pergunta p{
+    color: #3B3B3B;
+    font-size: 14px;
+}
+.pergunta img{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;   
+}
+.pergunta img:hover{
+    cursor: pointer;
+}
+.section7 .watch{
+    width: 50%;
+    padding-left: 100px;
+}
+.section7 .watch img{
+    width: 100%;
+    max-width: 500px;
 }
 
 

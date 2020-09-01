@@ -17,6 +17,7 @@
 }
 /*Ajustes do Cabeçalho*/
 header{
+    z-index: 9999;
     height: 90px;
     line-height: 90px;
     background-color: #F5F5F5;
@@ -42,6 +43,7 @@ header{
     float: right;    
 }
 .menu a{
+    text-decoration: none;
     color: #707070;
     font-size: 16px;
     font-weight: 700;
@@ -133,6 +135,9 @@ button:hover{
 .segundacoluna2{
     padding-left: 100px;
     margin: 55px 0;
+}
+.segundacoluna2 img{
+    width: 100%;
 }
 /*Ajustes da Seção sobre os recursos*/
 .section3{
@@ -320,7 +325,7 @@ button:hover{
 }
 .testemunho .pessoa{
     display: flex;
-
+    max-width: 100%;
 } 
 .testemunho .pessoa img{
     margin-left: 20px;
@@ -433,8 +438,140 @@ button:hover{
     width: 100%;
     max-width: 500px;
 }
-
-
+/*Seção para contato*/
+.section8{
+    width: 100%;
+    padding-bottom: 120px;
+}
+.section8top h2{
+    font-size: 36px;
+    color: #3B3B3B;
+    text-align: center;
+    margin-top: 110px;
+}
+.section8top p{
+    color: #3B3B3B;
+    font-size: 14px;
+    max-width: 496px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.section8bottom{
+    display: flex;
+    justify-content: center;
+}
+.section8bottom form{
+    width: 50%;
+    max-width: 470px;
+}
+.section8bottom form input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ECECEC;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 25px;
+    display: block;
+    padding-left: 20px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.section8bottom form input:focus{
+    border: 1px solid #ECECEC;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #707070;
+    outline: 0;
+}
+#pergunta{
+    width: 100%;
+    height: 160px;
+    line-height: none;
+    padding-right: 20px;
+    border: 1px solid #ECECEC;
+    box-shadow: 0px 3px 6px #00000029;
+    resize: none;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
+}
+#pergunta:focus{
+    border: 1px solid #ECECEC;
+    box-shadow: 0px 3px 6px #00000029;
+    resize: none;
+    outline: 0;
+    font-size: 14px;
+    color: #707070;
+}
+#submit{
+    width: 115px;
+    height: 40px;
+    background-image: linear-gradient(237deg, #6ACBE0 0%, #6859EA 100%);
+    border-radius: 23px;
+    margin-top: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*INFORMAÇÕES*/
+.info{
+    width: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.info > div{
+    display: block;
+    margin-top: 30px;
+}
+.info > div > div{
+    margin-bottom: 10px;
+}
+.info .phone{
+    margin-top: 0;
+}
+.info img,
+.info h6{
+    display: inline-block;
+}
+.info img{
+    margin-right: 10px;
+}
+.info h6{
+    font-size: 16px;
+}
+.phone p{
+    font-size: 14px;
+    color: #3B3B3B;
+}
+.phone p:nth-of-type(2){
+    color: #707070;
+}
+.mail p{
+    font-size: 14px;
+    color: #3B3B3B;
+}
+.address p{
+    font-size: 14px;
+    color: #707070;
+}
+.follow img{
+    cursor: pointer;
+}
+/*Copy*/
+.sectioncopy{
+    background-color: #3B3B3B;
+    padding: 17px 0;
+}
+.sectioncopy p{
+    color: white;
+    text-align: center;
+    font-size: 12;
+}
 @media only screen and (max-width: 1024px){
     .center{
         max-width: 900px;

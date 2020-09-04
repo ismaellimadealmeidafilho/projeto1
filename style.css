@@ -38,9 +38,13 @@ header{
     color: #3B3B3B;
     float: left;
 }
+/*Menu Desktop*/
 .menu{
     line-height: 90px;
-    float: right;    
+    float: right;
+}
+.menu li{
+    display: inline-block;
 }
 .menu a{
     text-decoration: none;
@@ -48,8 +52,6 @@ header{
     font-size: 16px;
     font-weight: 700;
     margin-right: 40px;
-}
-.menu a:hover{
     cursor: pointer;
 }
 button{
@@ -61,9 +63,46 @@ button{
     color: #FFFFFF;
     font-size: 16px;
     box-shadow: 0px 0px 5px #3B3B3B;
-}
-button:hover{
     cursor: pointer;
+    outline: 0;
+
+}
+/*Menu Mobile*/
+.menumob{
+    line-height: 30px;
+    float: right;
+    display: none;
+}
+.icon img{
+    cursor: pointer;
+    margin-top: 29px;
+}
+.list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.list ul{
+    width: 100%;
+}
+.list li{
+    list-style-position: inside;
+    list-style: none;
+    text-align: center;
+    background-color: #707070;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0px 1px 5px #3B3B3B;
+}
+.menumob a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
 /*Ajustes da primeira Seção */
 .section1{
@@ -83,9 +122,9 @@ button:hover{
     width: 100%;
 }
 .segundacoluna{
-    padding-top: 136px;
-    padding-left: 200px;
     width: 65%;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 .segundacoluna h2{
     color: #3B3B3B;
@@ -370,7 +409,7 @@ button:hover{
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
-   text-align: center;    
+    text-align: center;    
 }
 .bullet1, .bullet2, .bullet3{
     width: 12px;
@@ -576,5 +615,97 @@ button:hover{
     .center{
         max-width: 900px;
     }
+    /*menu*/
+    .menu li{
+        display: none;
+    }
+    .menumob{
+        display: inline-block;
+    }
+    .menumob li{
+        display: none;
+    }
 }
+@media only screen and (max-width: 768px){
+    /* Primeira seção*/
+    .segundacoluna{
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    .segundacoluna h2{
+        font-size: 32px;
+    }
+    .segundacoluna p{
+        margin-top: 15px;
+    }
+    .segundacoluna button{
+        margin-top: 20px;
+    }
+    /*Ajustes da Seção sobre o produto */
+    .section2{
+        width: 100%;
+        background-color: #FEFEFE;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .primeiracoluna2{
+        width: 100%;
+    }
+    .primeiracoluna2 h2{
+        margin: auto;
+        margin-top: 0;
+        width: 100%;
+        font-size: 36px; 
+        color: #3B3B3B;
+        text-align: center;
+    }
+    .primeiracoluna2 p{
+        margin: auto;
+        font-size: 14px;
+        margin-top: 25px; 
+        color: #707070; 
+        text-align: center;
+    }
+    .primeiracoluna2 button{
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .segundacoluna2{
+        display: none;
+    }
+    .segundacoluna2 img{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 580px){
+    /* gerais */
+    button{
+        width: 85px;
+        height: 40px;
+        background-image: linear-gradient(237deg, #6ACBE0 0%, #6859EA 100%);
+        border: 0;
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-size: 14px;
+        box-shadow: 0px 0px 5px #3B3B3B;
+        cursor: pointer;
+    }
+    /* Primeira seção*/
+    .section1{
+        background-color: #F5F5F5;
+        padding-top: 5px;
+        padding-bottom: 55px;
+        width: 100%;
+    }
+    .segundacoluna{
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    .segundacoluna h2{
+        font-size: 24px;
+    }
+}
+
 
